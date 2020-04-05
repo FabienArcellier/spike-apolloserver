@@ -5,8 +5,7 @@
   "main": "src/src/index.js",
   "scripts": {
     "build": "tsc --build tsconfig.json",
-    "build-test": "tsc --build tsconfig.test.json",
-    "start": "node lib/src/index.js",
+    "start": "node lib/index.js",
     "test": "jest"
   },
   "license": "ISC",
@@ -25,5 +24,8 @@
     "node": "10",
     "npm": "6"
   },
-  "cacheDirectories": ["node_modules", "lib"]
+  "cacheDirectories": [
+    "node_modules",
+    "lib"
+  ]
 }
