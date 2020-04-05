@@ -27,16 +27,16 @@ npm run start
 curl 'http://127.0.0.1:4000/' -H 'content-type: application/json' --data-binary '{"query":"{ user(name: \"fabien\") {name,age}}"}'
 ```
 
-### 2. Development : generation of endpoint signature for React client
+### 2. Development : generation of endpoint signature for React client
 
 I can generate interface client with graphql endpoint.
 
-### 3. Documentation : usage of apollo server
+### 3. Documentation : usage of apollo server
 
 It's high quality documentation. The example are not too much simple and easy to try. 
 The way the resolver are chained is well described.
 
-### 3. Documentation : usage of apollo server in typescript
+### 3. Documentation : usage of apollo server in typescript
 
 * the usage of apollo server in typescript is not cover in documentation. Only the development with react client is cover.
 
@@ -50,7 +50,7 @@ The way the resolver are chained is well described.
 
 * `gql` instruction allow to check the validity of graphql schema (see [test_query.ts](src/query.test.ts))
 
-### 4. Testability : internal mock library
+### 4. Testability : internal mock library
 
 Apollo server implements its own mocking library to test the front disconnected from anything.
 I think this sort of things is gadget. We already have the signature validation through `apollo` cli.
