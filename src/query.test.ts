@@ -29,7 +29,6 @@ describe('Query', () => {
         // Assign
         const res = await query({ query: '{ user { name, age } }' });
         // Assert
-        console.log(res)
         expect(res.data.user.name).toEqual('My name is stranger !')
     })
 });
