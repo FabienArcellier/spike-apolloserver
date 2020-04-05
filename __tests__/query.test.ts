@@ -1,4 +1,4 @@
-import { Query } from './query'
+import { Query } from '../src/query'
 import { ApolloServer } from 'apollo-server';
 import { createTestClient, ApolloServerTestClient } from 'apollo-server-testing';
 

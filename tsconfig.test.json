@@ -9,6 +9,6 @@
       "strict": true,
       "sourceMap": true
     },
-    "include": ["src"],
-    "exclude": ["node_modules", "**/__tests__/*", "src/**/*.test.*"]
+    "include": ["src", "__tests__/query.test.ts"],
+    "exclude": ["node_modules"]
   }

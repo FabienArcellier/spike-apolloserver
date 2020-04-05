@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node lib/index.js",
+    "build-test": "tsc --build tsconfig.test.json",
+    "start": "node lib/src/index.js",
     "test": "jest"
   },
   "license": "ISC",
