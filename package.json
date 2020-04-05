@@ -1,0 +1,25 @@
+{
+  "name": "apolloserver-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.11.0",
+    "graphql": "^14.6.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "apollo-server-testing": "^2.11.0",
+    "jest": "^25.2.7",
+    "ts-jest": "^25.3.1"
+  }
+}
