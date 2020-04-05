@@ -2,7 +2,7 @@
   "name": "apolloserver-spike",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/src/index.js",
   "scripts": {
     "build": "tsc",
     "build-test": "tsc --build tsconfig.test.json",
