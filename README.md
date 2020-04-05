@@ -67,17 +67,5 @@ The mecanisism of Snapshot is intrusive. You have to remove them by hand when yo
 You can find the latest version to ...
 
 ```bash
-git clone ...
+git clone git@github.com:FabienArcellier/spike-apolloserver.git
 ```
-
-## Code Example
-
-5-line code snippet on how its used (if it's a library)
-
-## Continuous integration
-
-Provide code examples and explanations of how to get the project.
-
-### Tests
-
-Describe and show how to run the tests with code examples.
