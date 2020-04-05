@@ -1,5 +1,7 @@
 ## implement a graphql service with Apollo Server with typescript
 
+![CI](https://github.com/FabienArcellier/spike-apolloserver/workflows/CI/badge.svg)
+
 * [apollo server](https://www.apollographql.com/docs/apollo-server/getting-started/)
 
 **Conclusion :**
