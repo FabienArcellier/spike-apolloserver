@@ -8,8 +8,6 @@
     "start": "node lib/index.js",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.11.0",
